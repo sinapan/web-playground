@@ -1,2 +1,5 @@
 # web-playground
-A repo to hold sample web projects
+
+This repo includes all the web projects I do to familiarize myself with different web technologies.
+
+
