@@ -1,0 +1,23 @@
+{
+  "name": "web-playground",
+  "version": "1.0.0",
+  "description": "This repo includes all the web projects I do to familiarize myself with different web technologies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinapan/web-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sinapan/web-playground/issues"
+  },
+  "homepage": "https://github.com/sinapan/web-playground#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-google": "^0.14.0"
+  }
+}
