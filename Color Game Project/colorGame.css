@@ -1,5 +1,7 @@
 body{
     background-color: #232624;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 .square{
@@ -8,27 +10,63 @@ body{
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.3s;
 }
 
 #container{
     max-width: 600px;
-    margin: 0 auto;
-}
-
-h1{
-    color: white;
+    margin: 20px auto;
 }
 
 #titleSegment{
-    background: #232624;
+    text-align: center;
+    color: white;
+    background: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 20;
+}
+
+#colorDisplay{
+    font-weight: bold;
+}
+
+p{
+    margin: 0;
 }
 
 #stripe{
     background: white;
     height: 2em;
     text-align: center;
+    margin: none;
+}
+
+button{
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    height: 100%;
+    color: steelblue;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+}
+
+button:hover{
+    background: steelblue;
+    color: white;
 }
 
 .btnSelected{
-    background: #232624;
+    background: steelblue;
+    color: white;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
 }
