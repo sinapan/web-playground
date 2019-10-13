@@ -18,3 +18,17 @@ body{
 h1{
     color: white;
 }
+
+#titleSegment{
+    background: #232624;
+}
+
+#stripe{
+    background: white;
+    height: 2em;
+    text-align: center;
+}
+
+.btnSelected{
+    background: #232624;
+}
